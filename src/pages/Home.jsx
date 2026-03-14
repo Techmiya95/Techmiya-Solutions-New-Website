@@ -35,6 +35,9 @@ export default function Home() {
                                 Learn More
                             </Link>
                         </div>
+                        <a href="https://www.techmiyasolutions.com" target="_blank" rel="noopener noreferrer" className="hero-tech-link fade-in stagger-3">
+                            <Globe size={18} /> www.techmiyasolutions.com
+                        </a>
                         <div className="hero-stats">
                             <div className="hero-stat">
                                 <div className="hero-stat-number">50+</div>

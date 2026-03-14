@@ -521,7 +521,28 @@ button {
 .hero-buttons {
   display: flex;
   gap: 16px;
+  margin-bottom: 24px;
+}
+
+.hero-tech-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 48px;
+  color: var(--primary);
+  font-weight: 500;
+  transition: var(--transition-fast);
+  padding: 8px 16px;
+  background: rgba(0, 212, 255, 0.05);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.hero-tech-link:hover {
+  background: rgba(0, 212, 255, 0.1);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
 }
 
 .hero-stats {

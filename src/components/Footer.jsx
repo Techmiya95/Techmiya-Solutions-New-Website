@@ -17,6 +17,9 @@ export default function Footer() {
                             Pioneering the future with innovative technology solutions. From robotics to VLSI,
                             we engineer excellence for businesses worldwide.
                         </p>
+                        <a href="https://www.techmiyasolutions.com" target="_blank" rel="noopener noreferrer" className="footer-link-main" style={{ color: 'var(--primary)', fontWeight: '600', fontSize: '0.9rem', marginTop: '12px', display: 'inline-block' }}>
+                            www.techmiyasolutions.com
+                        </a>
                         <div className="footer-social">
                             <a href="https://in.linkedin.com/company/techmiya-solutions" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={18} /></a>
                             <a href="https://www.youtube.com/channel/UCs-OZYwk-dY9Ik66zub0PGQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><Youtube size={18} /></a>
