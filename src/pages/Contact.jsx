@@ -21,7 +21,7 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Construct the WhatsApp message
     const whatsappNumber = '916363760275';
     const text = `*New Inquiry from Techmiya Website*%0A%0A` +
@@ -31,7 +31,7 @@ export default function Contact() {
       `*Company:* ${formData.company || 'N/A'}%0A` +
       `*Service:* ${formData.service || 'N/A'}%0A` +
       `*Message:* ${formData.message}`;
-    
+
     // Open WhatsApp in a new tab
     window.open(`https://wa.me/${whatsappNumber}?text=${text}`, '_blank');
   };
@@ -60,7 +60,7 @@ export default function Contact() {
                 <div className="contact-icon-box"><Mail size={24} /></div>
                 <div className="contact-info-content">
                   <h3>Email</h3>
-                  <p>hr@techmiya.com</p>
+                  <p>hr@techmiyasolutions.com</p>
                   {/* <p>sales@techmiyasolutions.com</p> */}
                 </div>
               </div>
@@ -110,24 +110,24 @@ export default function Contact() {
                 <div className="form-row">
                   <div className="form-group">
                     <label>First Name</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       name="firstName"
-                      placeholder="John" 
+                      placeholder="John"
                       value={formData.firstName}
                       onChange={handleChange}
-                      required 
+                      required
                     />
                   </div>
                   <div className="form-group">
                     <label>Last Name</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       name="lastName"
-                      placeholder="Doe" 
+                      placeholder="Doe"
                       value={formData.lastName}
                       onChange={handleChange}
-                      required 
+                      required
                     />
                   </div>
                 </div>
@@ -135,21 +135,21 @@ export default function Contact() {
                 <div className="form-row">
                   <div className="form-group">
                     <label>Email Address</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       name="email"
-                      placeholder="john@example.com" 
+                      placeholder="john@example.com"
                       value={formData.email}
                       onChange={handleChange}
-                      required 
+                      required
                     />
                   </div>
                   <div className="form-group">
                     <label>Phone Number</label>
-                    <input 
-                      type="tel" 
+                    <input
+                      type="tel"
                       name="phone"
-                      placeholder="+91 98765 43210" 
+                      placeholder="+91 98765 43210"
                       value={formData.phone}
                       onChange={handleChange}
                     />
@@ -158,10 +158,10 @@ export default function Contact() {
 
                 <div className="form-group">
                   <label>Company Name</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     name="company"
-                    placeholder="Your Company" 
+                    placeholder="Your Company"
                     value={formData.company}
                     onChange={handleChange}
                   />
@@ -169,7 +169,7 @@ export default function Contact() {
 
                 <div className="form-group">
                   <label>Service Required</label>
-                  <select 
+                  <select
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
@@ -185,7 +185,7 @@ export default function Contact() {
 
                 <div className="form-group">
                   <label>Your Message</label>
-                  <textarea 
+                  <textarea
                     name="message"
                     placeholder="Tell us about your project or requirements..."
                     value={formData.message}
