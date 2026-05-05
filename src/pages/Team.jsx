@@ -6,13 +6,13 @@ export default function Team() {
 
   const leadership = [
     {
-      name: "Sandeep Rao",
+      name: "Md Yasin Shahbaz",
       role: "Founder & CEO",
       bio: "15+ years in Robotics & AI. Previously led large-scale automation projects for Fortune 500 companies.",
       initials: "SR"
     },
     {
-      name: "Priyanka Sharma",
+      name: "Joel Fernandes",
       role: "Chief Technology Officer",
       bio: "Expert in VLSI design and embedded systems. Holds 10+ patents in semiconductor technology.",
       initials: "PS"
@@ -76,7 +76,7 @@ export default function Team() {
           <div className="section-badge">Our Team</div>
           <h1>The Minds Behind <span>The Innovation</span></h1>
           <p>
-            Meet the diverse team of engineers, designers, and visionaries 
+            Meet the diverse team of engineers, designers, and visionaries
             working together to build the next generation of technology.
           </p>
         </div>
@@ -123,7 +123,7 @@ export default function Team() {
                   {dept.icon} {dept.name}
                 </div>
               </div>
-              
+
               <div className="team-grid">
                 {dept.members.map((member, index) => (
                   <div key={index} className="team-card fade-in stagger-1">
@@ -159,19 +159,19 @@ export default function Team() {
               <div className="section-badge">Join Us</div>
               <h2 className="section-title">Built on <span>Collaborative Culture</span></h2>
               <p>
-                We foster an environment of continuous learning, diversity, and extreme 
-                ownership. At Techmiya Solutions, every team member has the freedom 
+                We foster an environment of continuous learning, diversity, and extreme
+                ownership. At Techmiya Solutions, every team member has the freedom
                 to explore, innovate, and contribute to world-changing projects.
               </p>
               <div className="about-values" style={{ marginTop: '30px' }}>
-                 <div className="about-value">
-                   <div className="about-value-icon"><Zap size={20} /></div>
-                   <span>Fast-Paced</span>
-                 </div>
-                 <div className="about-value">
-                   <div className="about-value-icon"><Globe size={20} /></div>
-                   <span>Global-Scale</span>
-                 </div>
+                <div className="about-value">
+                  <div className="about-value-icon"><Zap size={20} /></div>
+                  <span>Fast-Paced</span>
+                </div>
+                <div className="about-value">
+                  <div className="about-value-icon"><Globe size={20} /></div>
+                  <span>Global-Scale</span>
+                </div>
               </div>
               <button className="btn btn-primary" style={{ marginTop: '40px' }}>
                 Explore Career Opportunities <ArrowRight size={18} style={{ marginLeft: '10px' }} />
