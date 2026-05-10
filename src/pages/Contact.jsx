@@ -69,7 +69,7 @@ export default function Contact() {
                 <div className="contact-icon-box"><Phone size={24} /></div>
                 <div className="contact-info-content">
                   <h3>Phone</h3>
-                  <p>+91 9591745792</p>
+                  <p>+91 7338631971</p>
                   {/* <p>+91 87654 32109</p> */}
                 </div>
               </div>

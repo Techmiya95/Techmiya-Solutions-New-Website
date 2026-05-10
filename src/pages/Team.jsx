@@ -14,7 +14,7 @@ export default function Team() {
     {
       name: "Joel Fernandes",
       role: "Chief Technology Officer",
-      bio: "Expert in VLSI design and embedded systems. Holds 10+ patents in semiconductor technology.",
+      bio: "Expert in Machine Learning and Generative AI.",
       initials: "PS"
     },
     {
@@ -30,7 +30,7 @@ export default function Team() {
       name: "Robotics & Hardware",
       icon: <Bot size={20} />,
       members: [
-        { name: "Rahul Verma", role: "Sr. Robotics Engineer" },
+        { name: "Ganavi R", role: "Sr. Software Engineer" },
         { name: "Ananya Dixit", role: "Mechatronics Specialist" },
         { name: "Vikram Reddy", role: "Hardware Architect" },
         { name: "Sneha Nair", role: "Control Systems Lead" }
