@@ -55,6 +55,32 @@ export default function Services() {
       title: 'Cloud Infrastructure',
       desc: 'Secure and scalable cloud architecture to host your mission-critical applications.',
       features: ['Cloud Migration', 'Serverless Design', 'Containerization', 'Auto-scaling']
+    },
+    {
+      icon: <Cpu size={40} />,
+      title: 'Techmiya Projects',
+      desc: (
+        <>
+          Research and development projects focused on building and validating innovative technology solutions.{' '}
+          <a href="https://techmiyaprojects.com" target="_blank" rel="noopener noreferrer">
+            techmiyaprojects.com
+          </a>
+        </>
+      ),
+      features: ['R&D Prototyping', 'Proof of Concept', 'System Validation', 'Product Engineering']
+    },
+    {
+      icon: <Settings size={40} />,
+      title: 'Techmiya EdTech',
+      desc: (
+        <>
+          Training programs for hardware and software, designed for students and professionals.{' '}
+          <a href="https://techmiyaedtech.com" target="_blank" rel="noopener noreferrer">
+            techmiyaedtech.com
+          </a>
+        </>
+      ),
+      features: ['Hardware Training', 'Software Training', 'Hands-on Labs', 'Industry Projects']
     }
   ];
 

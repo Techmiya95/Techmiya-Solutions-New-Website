@@ -88,6 +88,22 @@ export default function Home() {
                             <h3>CRM & ERP Solutions</h3>
                             <p>Scalable enterprise software to streamline your business workflows and customer relations.</p>
                         </div>
+                        <div className="service-card glass-card fade-in stagger-1">
+                            <div className="service-icon"><BarChart3 size={32} /></div>
+                            <h3>Techmiya Projects</h3>
+                            <p>
+                                Research and development projects to prototype, validate, and deliver innovative solutions.{' '}
+                                <a href="https://techmiyaprojects.com" target="_blank" rel="noopener noreferrer">techmiyaprojects.com</a>
+                            </p>
+                        </div>
+                        <div className="service-card glass-card fade-in stagger-2">
+                            <div className="service-icon"><Users size={32} /></div>
+                            <h3>Techmiya EdTech</h3>
+                            <p>
+                                Training for hardware and software with hands-on learning paths for students and professionals.{' '}
+                                <a href="https://techmiyaedtech.com" target="_blank" rel="noopener noreferrer">techmiyaedtech.com</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
