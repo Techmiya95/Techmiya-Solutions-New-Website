@@ -30,10 +30,10 @@ export default function Team() {
       name: "Robotics & Hardware",
       icon: <Bot size={20} />,
       members: [
-        { name: "Ganavi R", role: "Sr. Software Engineer" },
-        { name: "Ananya Dixit", role: "Mechatronics Specialist" },
+        { name: "Ganavi R", role: "Software Engineer" },
+        { name: "Judah Benilan", role: "Mechatronics Specialist" },
         { name: "Vikram Reddy", role: "Hardware Architect" },
-        { name: "Sneha Nair", role: "Control Systems Lead" }
+        { name: "Md Raza", role: "Human Resource" }
       ]
     },
     {
