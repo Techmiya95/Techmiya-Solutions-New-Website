@@ -9,13 +9,13 @@ export default function Team() {
       name: "Md Yasin Shahbaz",
       role: "Founder & CEO",
       bio: "15+ years in Robotics & AI. Previously led large-scale automation projects for Fortune 500 companies.",
-      initials: "SR"
+      initials: "YS"
     },
     {
       name: "Joel Fernandes",
       role: "Chief Technology Officer",
       bio: "Expert in Machine Learning and Generative AI.",
-      initials: "PS"
+      initials: "JF"
     },
     {
       name: "Arjun Kapoor",
